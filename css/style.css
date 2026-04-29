@@ -1,0 +1,21 @@
+ body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .resultado {
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+        }
