@@ -44,6 +44,22 @@ body{
     color: #a855f7;
 }
 
+.user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user i{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
+.user span:hover{
+    color: #a855f7;
+}
+
 .container{
     display: flex;
     height: calc(100vh - 70px);

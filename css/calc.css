@@ -41,6 +41,7 @@ body{
 .calculadora{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
     margin: 20px 0;
@@ -53,9 +54,14 @@ input{
     border-radius: 6px;
     border: none;
     outline: none;
+    font-weight: bold;
 }
 
-input
+#resultado{
+    min-width: 370px;
+    width: auto;
+    font-weight: bold;
+}
 
 button{
     padding: 10px 25px;
@@ -73,10 +79,15 @@ button:hover{
 }
 
 .imagem-area{
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.imagem-area img{
+    border-radius: 50%;
 }
 
 .imagem{
-    width: 150px;
+    width: 250px;
+    height: 250px;
     display: none;
 }

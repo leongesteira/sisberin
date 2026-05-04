@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-    <img src="img/Logo Berin.png" alt="Logo Sisberin" class="logo">
+    <a href="index.html"><img src="img/Logo Berin.png" alt="Logo Sisberin" class="logo"></a>
 </header>
 
 <main class="main">
@@ -16,11 +16,15 @@
         <h1>Calculadora do Amor 💖</h1>
 
         <div class="calculadora">
-            <input type="number" id="num1" placeholder="Número 1">
-            <span>+</span>
-            <input type="number" id="num2" placeholder="Número 2">
-            <span>=</span>
-            <input type="text" id="resultado" readonly>
+            <div class="linha">
+                <input type="number" id="num1" placeholder="Número 1">
+                <span>+</span>
+                <input type="number" id="num2" placeholder="Número 2">
+            </div>
+
+            <div class="linha">
+                <input type="text" id="resultado" readonly>
+            </div>
         </div>
 
         <button onclick="somar()">Somar</button>
