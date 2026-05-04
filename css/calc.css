@@ -47,6 +47,10 @@ body{
     margin: 20px 0;
 }
 
+.linha img{
+    width: 500px;
+}
+
 input{
     padding: 10px;
     width: 100px;
